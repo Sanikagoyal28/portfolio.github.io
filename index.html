@@ -13,18 +13,22 @@
   </head>
   <body>
     <div class="header">
-      <div class="navRow">
+      <div class="NAV">
         <h1 id="portfolio">Portfolio</h1>
-        <label id="icon"><i class="fa-solid fa-bars"></i></label>
-        <nav id="navBar">
-          <ul class="list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#aboutMe">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#">Projects</a></li>
-          </ul>
-        </nav>
+        <div id="navRow">
+          <nav>
+            <ul class="list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#aboutMe">About Me</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#mainProject">Projects</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
+      <span
+        ><label id="icon"><i class="fa-solid fa-bars"></i></label
+      ></span>
     </div>
     <div class="home">
       <div class="intro">
@@ -39,17 +43,67 @@
     <div class="aboutMe" id="aboutMe">
       <h2>ABOUT ME</h2>
       <p class="ME">
-        Hello People, My name is Sanika Goyal. I have been born and brought up
-        in Aligarh. I am pursuing BTech in Computer Science from Ajay Kumar Garg
-        Engineering College , Ghaziabad. My hobbies are to listen music ,
-        playing Badminton and to hang out. I started my Coding journey from
-        First semester onwards andcurrently I am a learner in field of coding
-        and to know more about my skills scroll the page below or click the
-        Skills icon. I have done my 10th and 12th from Maharishi Vidya Mandir,
-        Aligarh with an aggregate of 95.6% and 97% .
+        My name is Sanika Goyal. I have been born and brought up
+        in Aligarh. I have done my schooling from Maharishi Vidya Mandir
+        with an aggregate of 95.6% and 97% in class 10th and 12th 
+        and now I am pursuing the degree of BTech in Computer Science from Ajay Kumar Garg
+        Engineering College , Ghaziabad. I like listening music ,
+        playing Badminton and hanging out with my closed ones. I started my Coding journey a year ago
+        ( from First semester onwards ) and currently I am a learner in field of coding . My interest
+         is in making Websites and I want to work further in that . 
       </p>
-      <br />
     </div>
     <hr />
+    <div class="skills" id="skills">
+      <h2>SKILLS</h2>
+      <div class="skillContainer">
+        <div class="block" id="html">
+          <h1>HTML</h1>
+          <h3>Hypertext Markup Language</h3>
+          <img src="icons8-html-5-48.png" alt="html" height="150" width="120" />
+        </div>
+        <div class="block" id="css">
+          <h1>CSS</h1>
+          <h3>Cascading Style Sheets</h3>
+          <img src="icons8-css3-48.png" alt="css" height="120" width="90" />
+        </div>
+        <div class="block" id="js">
+          <h1>Learning</h1>
+          <ul class="skillList">
+            <li id="javascript"><div id="javascript">Javascript</div>
+              <div><img src="icons8-javascript-48.png" height="30" width="40"></div></li>
+          <li><div id="cpp">C++</div>
+          <div><img src="icons8-c-plus-plus-26.png" height="30" width="40"/></div></li>
+        </div>
+        <div class="block" id="c">
+          <h1>C Programming</h1>
+          <img src="icons8-c-key-50.png" alt="c" height="70" width="70" />
+        </div>
+      </div>
+      <br>
+    </div>
+    <hr/>
+    <div class="mainProject" id="mainProject">
+      <h2 id="heading">MY PROJECTS</h2>
+    <div class="projects">
+      <div class="projectBlock" id="tribute">
+        <h2>A Tribute Web Page</h2>
+        <p>A tribute web page using HTML CSS for our Rspected DR. A.P.J. Abdul Kalam.</p>
+        <p>(First project which I made for practice)</p>
+        <a href="https://sanikagoyal28.github.io/tributeWebsite.github.io-/">Tap to See</a>
+      </div>
+      <div class="projectBlock">
+        <h2>A Transaparent Login Page</h2>
+        <p>A Login Page using HTML CSS to enter your email and password</p>
+        <a href="https://sanikagoyal28.github.io/transparentLoginPage.github.io/">Tap to See</a>
+      </div>
+      <div class="projectBlock">
+        <h2>A Calculator</h2>
+        <p>Working Calculator using HTML CSS Javascript</p>
+        <a href="" alt="calculator">Tap to See</a>
+      </div>
+    </div>
+    </div>
+    <hr>
   </body>
 </html>
