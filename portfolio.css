@@ -1,0 +1,145 @@
+body {
+  /* background: url(bg3.jpg) no-repeat fixed;
+  background-size: cover;*/
+  background-color: #d0b8a8;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  position: relative;
+}
+.navRow {
+  margin: auto;
+  background-color: rgba(101, 141, 214, 0.8);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.navRow #portfolio {
+  padding: 0 20px;
+  font-size: 30px;
+  color: white;
+  text-transform: capitalize;
+}
+.navRow #navBar {
+  padding: 0 20px;
+}
+.list {
+  list-style: none;
+}
+.list li {
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 50px;
+}
+.navRow {
+  padding: 10px 0;
+}
+.list li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 10px 0;
+}
+.list li a:hover {
+  color: black;
+}
+.navRow #icon {
+  position: relative;
+  font-size: 30px;
+  padding: 10px 0;
+  margin: 10px 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .navRow #icon {
+    display: flex;
+  }
+  .header #navBar {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+  }
+}
+/*HORIZONTAL RULE */
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 20%;
+}
+/*HOME PAGE*/
+.home {
+  /*background-color: brown;*/
+  width: 80vw;
+  height: 65vh;
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+  padding: 3%;
+}
+.home .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.home h2 {
+  font-size: 50px;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 0;
+  color: rgb(177, 5, 39);
+}
+.home p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.5;
+  word-spacing: 1px;
+  font-style: normal;
+  color: darkslateblue;
+  margin-top: 2%;
+}
+.image #profileImage {
+  border-radius: 20px;
+  height: 60vh;
+  position: relative;
+  top: 30px;
+}
+
+@media (max-width: 990px) {
+  .home {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding-bottom: 10%;
+  }
+}
+
+/*ABOUT ME*/
+.aboutMe {
+  margin: 3% auto;
+}
+.aboutMe .ME {
+  font-family: serif;
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: 1;
+  word-spacing: 1;
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+  margin-top: 50px;
+}
+
+.aboutMe h2 {
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+  text-align: center;
+}
